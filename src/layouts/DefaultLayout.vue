@@ -22,7 +22,7 @@
             <q-parallax src="../assets/bg.png" class="hero-parallax" style="height: 750px">
               <h1 class="text-white">Explore...</h1>
               <br />
-              <p>A collection of photography I found on pinterest.</p>
+              <p>Some photography I found on pinterest.</p>
             </q-parallax>
           </div>
         </div>
@@ -37,7 +37,7 @@
         <!-- Stepper Section -->
         <div class="row stepper-section" id="first-sect">
           <div class="col-md-6 explainer">
-            <h1 class="stepper-explain">Here's another Quasar Element...</h1>
+            <h1 class="stepper-explain">Here's another Quasar Component...</h1>
           </div>
           <div class="col-md-6">
             <Stepper />
@@ -51,6 +51,7 @@
           <h5>If i had a newsletter, this is where you'd sign up for it</h5>
           <div class="actual-input">
             <q-input rounded outlined v-model="text" label="your email" />
+            <q-btn flat rounded color="primary" label="Flat Rounded" />
           </div>
         </div>
       </div>
@@ -177,6 +178,10 @@ p {
 
 .q-field--outlined .q-field__control:after {
   border-color: white !important;
+}
+
+.q-btn {
+  margin-top: 25px;
 }
 
 /* Responsive Adjustments */
