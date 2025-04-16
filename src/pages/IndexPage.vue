@@ -1,13 +1,16 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
-  </q-page>
+  <q-page class="no-padding"> <!-- Remove flex classes --> </q-page>
 </template>
 
 <script setup>
-//
+// Your script
 </script>
+
+<style scoped>
+/* Remove default q-page margins */
+.q-page {
+  padding: 0;
+  margin: 0;
+  min-height: auto !important;
+}
+</style>
